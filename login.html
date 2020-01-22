@@ -1,0 +1,104 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+<body>
+	<div class = "container" style="margin-top:100px;">
+		<div class = "row">
+         <div class = "col m4 l4">
+       </div>
+         
+         <div class = "col m8 l4">
+			 <div class="card white">
+				<div class="card-content black-text">
+					<span class="card-title" align="center">Login</span>
+					<div class="row">
+						<form class = "col s12">
+            <div class = "row">
+               <div class = "input-field">
+                  <i class = "material-icons prefix">account_circle</i>
+                  <input placeholder = "Username"  id = "name"
+                     type = "text" class = "active validate" required />
+                  <label for = "name">Username</label>
+               </div>
+			 </div>
+			 <div class="row">
+			  <div class = "input-field">      
+			  <i class = "material-icons prefix">enhanced_encryption</i>
+                  <label for = "password">Password</label>
+                  <input id = "password" type = "password" placeholder = "Password"
+                     class = "validate" required />          
+               </div>
+			   </div>
+			   
+	<!--		<div class = "row">
+               <div class = "input-field">
+    <select>
+      <option value="" disabled selected>Role</option>
+      <option value="dept_admin">Department Admin</option>
+      <option value="teacher">Teacher</option>
+      <option value="student">Student</option>
+    </select>
+    <label>Select Role</label>
+  </div></div>                   -->
+			   <div class="row">
+			  <div class = "input-field">      
+			            <div class="input-field col s12">
+    <select>
+      <option value="" disabled selected>Choose your option</option>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select>
+    <label>Select Department</label>
+  </div>
+               </div>
+			   </div>
+			   
+			   
+			  <div class = "row">
+               <div class = "input-field">
+			   <p>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <input id = "dept_admin" type = "radio" name = "dept_admin"
+                        value = "dept_admin" checked />
+                     <label for = "male">Department Admin</label>
+                  </p>
+                  
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <input id = "teacher" type = "radio" name = "teacher"
+                        value = "teacher" checked />
+                     <label for = "teacher">Teacher</label>
+                  </p>
+				   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <input id = "student" type = "radio" name = "student"
+                        value = "student" checked />
+                     <label for = "student">Student</label>
+                  </p>
+               </div>
+            </div>           
+            <center>
+            <button class = "btn waves-effect waves-light red" type = "submit">Submit</button>  
+               </center></div>
+
+            </div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		 <div class="col m4 l4"></div>
+	</div>
+</div>
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>
